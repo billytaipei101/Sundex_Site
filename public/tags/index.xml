@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sundex Optical</title>
-    <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/</link>
+    <link>https://sundextw.netlify.app/tags/</link>
     <description>Recent content in Tags on Sundex Optical</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 27 Jul 2025 22:46:24 +0800</lastBuildDate>
-    <atom:link href="https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sundextw.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/hugo/</link>
+      <link>https://sundextw.netlify.app/tags/hugo/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0800</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/hugo/</guid>
+      <guid>https://sundextw.netlify.app/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Bootstrap</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/bootstrap/</link>
+      <link>https://sundextw.netlify.app/tags/bootstrap/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0800</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/bootstrap/</guid>
+      <guid>https://sundextw.netlify.app/tags/bootstrap/</guid>
       <description></description>
     </item>
     <item>
       <title>Featured</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/featured/</link>
+      <link>https://sundextw.netlify.app/tags/featured/</link>
       <pubDate>Sun, 22 May 2022 13:35:02 +0100</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/featured/</guid>
+      <guid>https://sundextw.netlify.app/tags/featured/</guid>
       <description></description>
     </item>
     <item>
       <title>Plot</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/plot/</link>
+      <link>https://sundextw.netlify.app/tags/plot/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/plot/</guid>
+      <guid>https://sundextw.netlify.app/tags/plot/</guid>
       <description></description>
     </item>
     <item>
       <title>R Markdown</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/r-markdown/</link>
+      <link>https://sundextw.netlify.app/tags/r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/r-markdown/</guid>
+      <guid>https://sundextw.netlify.app/tags/r-markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Regression</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/regression/</link>
+      <link>https://sundextw.netlify.app/tags/regression/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/regression/</guid>
+      <guid>https://sundextw.netlify.app/tags/regression/</guid>
       <description></description>
     </item>
     <item>
       <title>Index</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/index/</link>
+      <link>https://sundextw.netlify.app/tags/index/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/index/</guid>
+      <guid>https://sundextw.netlify.app/tags/index/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/privacy/</link>
+      <link>https://sundextw.netlify.app/tags/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/privacy/</guid>
+      <guid>https://sundextw.netlify.app/tags/privacy/</guid>
       <description></description>
     </item>
   </channel>

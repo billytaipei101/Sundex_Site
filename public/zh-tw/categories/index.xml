@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 晴綺光學</title>
-    <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/zh-tw/categories/</link>
+    <link>https://sundextw.netlify.app/zh-tw/categories/</link>
     <description>Recent content in Categories on 晴綺光學</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
-    <atom:link href="https://filipecarneiro.github.io/hugo-bootstrap-theme/zh-tw/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sundextw.netlify.app/zh-tw/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

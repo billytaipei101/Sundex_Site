@@ -2,124 +2,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/es/authors/</loc>
+    <loc>https://sundextw.netlify.app/es/authors/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/authors/"
+                href="https://sundextw.netlify.app/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-TW"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/zh-tw/authors/"
+                href="https://sundextw.netlify.app/zh-tw/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/authors/"
+                href="https://sundextw.netlify.app/pt/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/es/authors/"
+                href="https://sundextw.netlify.app/es/authors/"
                 />
   </url><url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/es/categories/</loc>
+    <loc>https://sundextw.netlify.app/es/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/"
+                href="https://sundextw.netlify.app/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-TW"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/zh-tw/categories/"
+                href="https://sundextw.netlify.app/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/categories/"
+                href="https://sundextw.netlify.app/pt/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/es/categories/"
+                href="https://sundextw.netlify.app/es/categories/"
                 />
   </url><url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/es/series/</loc>
+    <loc>https://sundextw.netlify.app/es/series/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/series/"
+                href="https://sundextw.netlify.app/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-TW"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/zh-tw/series/"
+                href="https://sundextw.netlify.app/zh-tw/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/series/"
+                href="https://sundextw.netlify.app/pt/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/es/series/"
+                href="https://sundextw.netlify.app/es/series/"
                 />
   </url><url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/es/</loc>
+    <loc>https://sundextw.netlify.app/es/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/"
+                href="https://sundextw.netlify.app/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-TW"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/zh-tw/"
+                href="https://sundextw.netlify.app/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/"
+                href="https://sundextw.netlify.app/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/es/"
+                href="https://sundextw.netlify.app/es/"
                 />
   </url><url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/es/tags/</loc>
+    <loc>https://sundextw.netlify.app/es/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/"
+                href="https://sundextw.netlify.app/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-TW"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/zh-tw/tags/"
+                href="https://sundextw.netlify.app/zh-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/tags/"
+                href="https://sundextw.netlify.app/pt/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/es/tags/"
+                href="https://sundextw.netlify.app/es/tags/"
                 />
   </url>
 </urlset>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Sundex Optical</title>
-    <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/series/</link>
+    <link>https://sundextw.netlify.app/pt/series/</link>
     <description>Recent content in Series on Sundex Optical</description>
     <generator>Hugo</generator>
     <language>pt-PT</language>
-    <atom:link href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sundextw.netlify.app/pt/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
