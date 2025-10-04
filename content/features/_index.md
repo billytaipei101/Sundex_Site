@@ -1,0 +1,28 @@
+---
+headless: true
+features:
+  - icon: "sun"
+    title: "Photochromic"
+    text: "Experience perfect vision indoors and out, without ever switching glasses. Our intelligent lenses adapt automatically, darkening in seconds under bright sunlight and returning to clear when you're back inside."
+    url: "about/" 
+  - icon: "shield"
+    title: "UV Protection"
+    text: "Safeguard your eyes with maximum defense against the sun's harsh rays. Our lenses feature built-in UV400 protection that blocks 100% of harmful UVA and UVB radiation."
+    url: "about/" 
+  - icon: "droplet"
+    title: "Anti-fog"
+    text: "Enjoy consistently clear vision, from your morning coffee to a mountain trail. A premium anti-fog coating is molecularly bonded to the lens to prevent condensation from ever obscuring your view."
+    url: "about/" 
+  - icon: "layers"
+    title: "Hard Multi-coated"
+    text: "Keep your vision crystal clear with lenses built to withstand the demands of daily life. A tough, multi-layered hard coat resists scratches and scuffs while eliminating distracting reflections."
+    url: "about/" 
+  - icon: "eye"
+    title: "Prescription Lenses"
+    text: "See the world in stunning high-definition with optics tailored perfectly for you. Each lens is custom-crafted based on your unique prescription to deliver the sharpest, most comfortable vision possible."
+    url: "about/" 
+  - icon: "activity"
+    title: "Sport Glasses Lenses"
+    text: "Goggles engineered for peak clarity provide crucial eye protection—they elevate your look, combining high-performance safety with a sleek, fashionable design."
+    url: "about/" 
+---

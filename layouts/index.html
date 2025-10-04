@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ $video := resources.Get "images/Lens_Creation.mp4" }}
+
+<section class="hero-placeholder">
+  <div class="video-hero jquery-background-video-wrapper">
+
+    
+    <button class="jquery-background-video-pauseplay play" style="inset: 50% 50% auto auto;"><span>Play</span></button>
+
+    <video class="jquery-background-video" autoplay muted loop>
+      <source src="{{ $video.RelPermalink }}" type="video/mp4">
+      {{/*<source src="https://d2ezlykacdqcnj.cloudfront.net/_assets/home-video/beach-waves-loop.mp4" type="video/mp4">*/}}
+    </video>
+    
+    <div class="video-overlay">
+    
+    <section class="section bd-masthead">
+      <div class="container-xxl">
+        <div class="col-md-8 mx-auto text-center my-5">
+          <img class="d-block mx-auto mb-3" src="{{ `images/logo.svg` | relURL }}" width="150" height="150" alt="Bootstrap">
+          <h1 class="display-4 fw-semibold mb-3">{{ .Site.Title }}</h1>
+          <p class="lead mb-4">{{ .Site.Params.Description }}</p>
+          <a class="btn btn-bd-primary btn-lg px-4 mb-2" href="https://github.com/filipecarneiro/hugo-bootstrap-theme" role="button">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div> </section>
+
+<section class="section container">
+  {{ partial "features" . }}
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Latest Posts</h3>
+  {{ partial "latest-posts" . }}
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5">Featured Pages</h3>
+  {{ partial "featured-pages" . }}
+</section>
+
+{{ end }}

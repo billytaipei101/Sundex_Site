@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Sundex Optical</title>
+    <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/</link>
+    <description>Recent content in Categories on Sundex Optical</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 27 Jul 2025 22:46:24 +0800</lastBuildDate>
+    <atom:link href="https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Release Notes</title>
+      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/hugo-release-notes/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0800</pubDate>
+      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/hugo-release-notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Bootstrap Blog</title>
+      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/the-bootstrap-blog/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0800</pubDate>
+      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/the-bootstrap-blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo Bootstrap Theme</title>
+      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/hugo-bootstrap-theme/</link>
+      <pubDate>Sun, 22 May 2022 13:35:02 +0100</pubDate>
+      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/hugo-bootstrap-theme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/r/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/r/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

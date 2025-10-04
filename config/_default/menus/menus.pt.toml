@@ -1,0 +1,24 @@
+[[main]]
+name = "Início"
+url = ""
+weight = 10
+
+[[main]]
+name = "Sobre"
+url = "about"
+weight = 20
+title = "Feito com ❤️ pela equipa Hugo Bootstrap Theme"
+
+[[social]]
+  name = "Instagram"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#instagram'/></svg>"
+  url = "https://www.instagram.com/sundexoptical?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+  weight = 10
+  title = "Visit us on Instagram"
+
+[[social]]
+  name = "LinkedIn"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#linkedin'/></svg>"
+  url = "https://www.linkedin.com/company/sundex-optical-co/"
+  weight = 20
+  title = "Contact on LinkedIn"

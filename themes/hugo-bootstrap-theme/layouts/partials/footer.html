@@ -1,0 +1,39 @@
+<footer class="footer brand-gradient footer-padding">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        {{ with .Site.Params.logo }}
+          <a href="{{ site.BaseURL | absURL }}">
+            <img src="{{ . | absURL }}" alt="{{ site.Title }} Logo" style="max-height: 40px; margin-bottom: 1rem;">
+          </a>
+        {{ end }}
+        <p class="small">{{ .Site.Params.footer.description | default "Your default company description goes here." }}</p>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="{{ .Site.Params.footer.products_url | default "#" }}" class="text-reset text-decoration-none">Current Products</a></li>
+          <li class="mb-2"><a href="{{ .Site.Params.footer.legal_url | default "#" }}" class="text-reset text-decoration-none">Legal Notice</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-12 mb-4">
+        <h5 class="mb-3">Get in Touch</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="{{ .Site.Params.footer.contact_url | default "#" }}" class="text-reset text-decoration-none">Contact Us</a></li>
+          <li class="mb-2"><a href="{{ .Site.Params.footer.whatsapp_url | default "#" }}" class="text-reset text-decoration-none" target="_blank">WhatsApp</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="row mt-4">
+      <div class="col text-center border-top border-secondary pt-3">
+        <p class="small mb-0">© {{ now.Format "2006" }} {{ .Site.Title }}. All Rights Reserved.</p>
+      </div>
+    </div>
+
+  </div>
+</footer>

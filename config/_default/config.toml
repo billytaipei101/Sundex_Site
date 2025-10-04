@@ -1,0 +1,67 @@
+baseURL = 'https://filipecarneiro.github.io/hugo-bootstrap-theme/'
+
+author = "William Cruz"
+#copyright = "Open-source <a class=\"text-muted text-decoration-none\" href=\"https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE\">MIT</a> Licensed."
+
+timeZone = 'Asia/Taipei'
+
+# Multilingual
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+theme = "hugo-bootstrap-theme"
+
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+#enableGitInfo = true
+enableEmoji = true
+#sectionPagesMenu = "main"
+#googleAnalytics = "UA-1511XXXX-X"
+
+[params]
+  # Path to your logo in the static folder
+  logo = "images/logo.svg"
+
+  [params.footer]
+    
+    products_url = "/about"
+    legal_url = "/tags/hugo"
+    contact_url = "contact"
+    # Use the direct link to WhatsApp API
+    whatsapp_url = "https://wa.me/1234567890" # Replace with your number
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = 'series'
+  author = "authors"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[permalinks]
+#  post = "/post/:title/"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.99.1"
+    max = ""
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+    
+    
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

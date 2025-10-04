@@ -1,0 +1,174 @@
+/*
+=====================================================
+Dark Navy Theme (Corrected Global Structure)
+=====================================================
+Primary Color: Midnight Navy (#1A2A4C)
+Accents: Roman Silver (#9EADC8), Deep Teal (#2E8A8C)
+*/
+div#content,
+.hero-placeholder,
+.jquery-background-video-wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body {
+  margin: 0; /* You may already have this */
+  overflow-x: hidden; /* Add this line */
+}
+
+/* --- NEW: Define all colors globally on :root --- */
+:root {
+  --bd-navy-main: #1A2A4C;
+  --bd-navy-dark: #14213d;
+  --bd-navy-darker: #0f1a2e;
+  --bd-accent-silver: #9EADC8;
+  --bd-accent-teal: #2E8A8C;
+
+  --bd-navy-main-rgb: 26, 42, 76;
+  --bd-accent-silver-rgb: 158, 173, 200;
+  --bd-accent-teal-rgb: 46, 138, 140;
+}
+
+.home {
+  /* The variables are no longer defined here; they are inherited from :root */
+
+  .bd-masthead {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 0;
+    /* This will now correctly find the global color variables */
+    background: transparent; 
+    /*background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 85%),  */
+    /*                  radial-gradient(ellipse at top left, rgba(var(--bd-navy-main-rgb), 0.5), transparent 50%), */
+    /*                  radial-gradient(ellipse at top right, rgba(var(--bd-accent-silver-rgb), 0.25), transparent 50%), */
+    /*                  radial-gradient(ellipse at center, rgba(var(--bd-accent-teal-rgb), 0.5), transparent 50%); */
+  }
+
+  .btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-navy-main);
+    --bs-btn-border-color: var(--bd-navy-main);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: var(--bd-navy-dark);
+    --bs-btn-hover-border-color: var(--bd-navy-dark);
+    --bs-btn-focus-shadow-rgb: var(--bd-navy-main-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: var(--bd-navy-darker);
+    --bs-btn-active-border-color: var(--bd-navy-darker);
+  }
+}
+
+.hero-placeholder {
+  position: relative; /* Establishes a positioning context */
+  height: 75vh;    /* Reserves the full screen height in the document */
+}
+
+.jquery-background-video-wrapper {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  display: flex; /* Enables Flexbox for easy centering */
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  flex-direction: column; 
+  z-index: 1; /* Puts the wrapper on a base layer */
+
+  /* --- Dynamic Gradient Background --- */
+  background: linear-gradient(
+    60deg,
+    #799df1 5%, #60c1ec 15%, #7bd9de 25%, #cfb0d2 35%,
+    #799df1 45%, #60c1ec 55%, #7bd9de 65%, #cfb0d2 75%,
+    #799df1 85%, #60c1ec 95%, #7bd9de
+  );
+  background-size: 200% 200%;
+  animation: moving1 7s infinite;
+}
+
+/* Use a selector that matches the HTML structure we created */
+.video-hero .bd-masthead {
+  position: relative; /* Sits in the normal document flow inside the hero */
+  z-index: 3;         /* Ensures it's stacked above the video and overlay */
+  padding: 5rem 0;    /* Adjust padding as needed for vertical centering */
+  
+}
+
+/* Style the text elements inside for high contrast and readability */
+.video-hero .bd-masthead h1, 
+.video-hero .bd-masthead p {
+  color: #FFFFFF;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7); /* A stronger shadow helps a lot */
+}
+
+/* Ensure the button stands out too */
+.video-hero .btn {
+  /* You may not need any changes here if the button style is already high-contrast */
+}
+
+.video-overlay {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent black */
+  z-index: 3  ; /* Sits on top of the video, below the content */
+}
+// --- Component Styles ---
+.brand-gradient {
+  @extend .navbar-dark; // Makes text light
+  color: #fff; // Ensures text is white
+
+  /* The background, gradient, and shadow from your navbar */
+  background-color: var(--bd-navy-main); 
+  background-image: linear-gradient(to right, var(--bd-navy-main), var(--bd-accent-teal));
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  @extend .navbar-dark;
+
+  /* This now has a solid color fallback AND a working gradient */
+  background-color: var(--bd-navy-main); 
+  background-image: linear-gradient(to right, var(--bd-navy-main), var(--bd-accent-teal));
+
+  padding: .75rem 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+// --- Utility Class ---
+
+.text-navy {
+  color: var(--bd-navy-main);
+}
+
+// --- UI Animations ---
+
+.list {
+  .card {
+    transition: transform 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+}
+
+.navbar-brand {
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: rotate(-2deg) scale(1.1);
+  }
+}
+
+.footer-padding {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
