@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/williamcruz/Documents/GitHub/Sundex Site",
+	"sourceRoot": "/Users/williamcruz/Documents/GitHub/Sundex_Site",
 	"sources": [
 		"assets/sass/main.scss",
 		"assets/sass/bootstrap/_functions.scss",
