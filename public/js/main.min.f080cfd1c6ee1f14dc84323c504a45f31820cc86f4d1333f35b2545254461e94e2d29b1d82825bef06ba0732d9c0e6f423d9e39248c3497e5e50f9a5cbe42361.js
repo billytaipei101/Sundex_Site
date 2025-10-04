@@ -1,1 +1,0 @@
-const tooltipTriggerList=document.querySelectorAll('[data-bs-toggle="tooltip"]'),tooltipList=[...tooltipTriggerList].map(e=>new bootstrap.Tooltip(e));$(document).ready(function(){$(".jquery-background-video").backgroundVideo();const e=$(".jquery-background-video")[0];e&&e.addEventListener("playing",function(){this.playbackRate=.5})})
