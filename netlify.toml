@@ -1,9 +1,12 @@
 [build]
 command = 'hugo'
 publish = 'public'
+command = "hugo --gc --minify"
 
 [build.environment]
 HUGO_VERSION = '0.140.1'
+GIT_SUBMODULES_PATHS = "themes"
+GIT_SUBMODULES_RECURSIVE = true 
 
 [context]
 [context.branch-deploy]

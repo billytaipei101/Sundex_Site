@@ -16,7 +16,7 @@ enableRobotsTXT = true
 #enableGitInfo = true
 enableEmoji = true
 #sectionPagesMenu = "main"
-#googleAnalytics = "UA-1511XXXX-X"
+googleAnalytics = "GTM-K8BNTFJ8"
 
 [params]
   # Path to your logo in the static folder
