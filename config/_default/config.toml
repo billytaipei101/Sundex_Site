@@ -16,7 +16,7 @@ enableRobotsTXT = true
 #enableGitInfo = true
 enableEmoji = true
 #sectionPagesMenu = "main"
-googleAnalytics = "GTM-K8BNTFJ8"
+googleAnalytics = "G-FB9ZF1LVCM"
 
 [params]
   # Path to your logo in the static folder
@@ -65,3 +65,8 @@ googleAnalytics = "GTM-K8BNTFJ8"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      
+[params.googleTag]
+  measurementId = "G-FB9ZF1LVCM"  # Your GA4 ID
+  googleAds = ""  # Optional: add Google Ads ID if you use it
+  cookies = false  # Set to true if you handle cookies via consent banner
