@@ -11,7 +11,7 @@ weight = 20
 
 [[main]]
 identifier = "Products"
-name = "products"
+name = "產品"
 url = "page"
 weight = 40
 
