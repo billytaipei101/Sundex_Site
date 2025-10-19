@@ -5,7 +5,7 @@
   weight = 10
   [en.params]
     languageISO = "EN"
-    description = "Polycarbonate and Resin Lenses manufacturer, engineering the ultimate in lightweight, fashionable, and impact-resistant optics."
+    description = "Polycarbonate lenses manufacturer, engineering the ultimate in lightweight, fashionable, and impact-resistant optics."
   [en.params.footer]
     description = "Leading provider of high-quality optical solutions and eyewear. Your vision is our mission."
 [pt]
@@ -15,7 +15,7 @@
   weight = 40
   [pt.params]
     languageISO = "PT"
-    description = "Fabricante de lentes de policarbonato e resina, projetando o que há de mais moderno em óptica leve, elegante e resistente a impactos."
+    description = "Fabricante de lentes de policarbonato, projetando o que há de mais moderno em óptica leve, elegante e resistente a impactos."
   [pt.params.footer]
     description = "Fornecedor líder de soluções ópticas e óculos de alta qualidade. Sua visão é a nossa missão."
     
@@ -26,7 +26,7 @@
   weight = 20
   [zh-tw.params]
     languageISO = "TW"
-    description = "聚碳酸酯和樹脂鏡片製造商，設計出極致輕量、時尚、抗衝擊的光學產品。"
+    description = "聚碳酸酯鏡片製造商，設計出極致輕量、時尚、抗衝擊的光學產品。"
   [zh-tw.params.footer]
     description = "領先的高品質光學解決方案和眼鏡供應商。您的願景就是我們的使命。"
     
@@ -37,6 +37,6 @@
   weight = 30
   [es.params]
     languageISO = "ES"
-    description = "Fabricante de lentes de policarbonato y resina, que diseña lo último en ópticas livianas, modernas y resistentes a los impactos."
+    description = "Fabricante de lentes de policarbonato, que diseña lo último en ópticas livianas, modernas y resistentes a los impactos."
   [es.params.footer]
     description = "Proveedor líder de soluciones ópticas y gafas de alta calidad. Su visión es nuestra misión."

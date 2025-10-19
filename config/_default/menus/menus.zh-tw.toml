@@ -1,13 +1,13 @@
-[[main]]
-name = "Início"
-url = ""
-weight = 10
+#[[main]]
+#name = "Início"
+#url = ""
+#weight = 10
 
 [[main]]
 name = "Sobre"
 url = "about"
 weight = 20
-title = "Feito com ❤️ pela equipa Hugo Bootstrap Theme"
+#title = "Feito com ❤️ pela equipa Hugo Bootstrap Theme"
 
 [[social]]
   name = "Instagram"
