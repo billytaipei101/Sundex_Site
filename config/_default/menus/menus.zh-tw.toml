@@ -4,10 +4,16 @@
 #weight = 10
 
 [[main]]
-name = "Sobre"
+name = "關於我們"
 url = "about"
 weight = 20
 #title = "Feito com ❤️ pela equipa Hugo Bootstrap Theme"
+
+[[main]]
+identifier = "Products"
+name = "products"
+url = "page"
+weight = 40
 
 [[social]]
   name = "Instagram"

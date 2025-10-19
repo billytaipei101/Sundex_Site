@@ -9,6 +9,12 @@ url = "about"
 weight = 20
 #title = "Feito com ❤️ pela equipa Hugo Bootstrap Theme"
 
+[[main]]
+identifier = "Products"
+name = "products"
+url = "page"
+weight = 40
+
 [[social]]
   name = "Instagram"
   pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#instagram'/></svg>"

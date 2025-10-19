@@ -11,32 +11,33 @@ weight = 20
 
 [[main]]
 identifier = "Products"
-name = "Blog"
+name = "products"
+url = "page"
 weight = 40
 
-[[main]]
-name = "All"
-url = "post"
-weight = 100
-parent = "blog"
+#[[main]]
+#name = "All"
+#url = "post"
+#weight = 100
+#parent = "blog"
 
-[[main]]
-name = "Hugo"
-url = "tags/hugo"
-weight = 20
-parent = "blog"
+#[[main]]
+#name = "Hugo"
+#url = "tags/hugo"
+#weight = 20
+#parent = "blog"
 
-[[main]]
-name = "Bootstrap"
-url = "tags/bootstrap"
-weight = 30
-parent = "blog"
+#[[main]]
+#name = "Bootstrap"
+#url = "tags/bootstrap"
+#weight = 30
+#parent = "blog"
 
-[[main]]
-identifier = "docs"
-name = "Docs"
-url = "page"
-weight = 50
+#[[main]]
+#identifier = "docs"
+#name = "Docs"
+#url = "page"
+#weight = 50
 
 [[social]]
   name = "Instagram"
