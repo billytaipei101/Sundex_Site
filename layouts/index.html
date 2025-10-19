@@ -5,9 +5,9 @@
   <div class="video-hero jquery-background-video-wrapper">
 
     
-    <button class="jquery-background-video-pauseplay play" style="inset: 50% 50% auto auto;"><span>Play</span></button>
+    {{/*<button class="jquery-background-video-pauseplay play" style="inset: 50% 50% auto auto;"><span>Play</span></button>*/}}
 
-    <video class="jquery-background-video" autoplay muted loop>
+    <video class="jquery-background-video" autoplay muted loop playsinline>
       <source src="{{ $video.RelPermalink }}" type="video/mp4">
       {{/*<source src="https://d2ezlykacdqcnj.cloudfront.net/_assets/home-video/beach-waves-loop.mp4" type="video/mp4">*/}}
     </video>
