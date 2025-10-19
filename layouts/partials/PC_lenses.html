@@ -1,0 +1,105 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Lens Information</title>
+    <style>
+        /* Container for the image and text to sit side-by-side */
+        .pc-lens-section {
+            display: flex;
+            align-items: flex-start; /* Aligns items to the top */
+            gap: 30px; /* Space between the image and text */
+            margin-bottom: 40px; /* Space below this section */
+            flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+        }
+
+        /* Styling for the image container */
+        .pc-lens-image-container {
+            flex: 0 0 auto; /* Don't grow, don't shrink, base on content width */
+            width: 300px; /* Set a fixed width for the image container */
+            overflow: hidden; /* Important for the zoom effect to not break layout */
+            border-radius: 8px; /* Slightly rounded corners for the image */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+        }
+
+        /* Image styling for zoom effect */
+        .pc-lens-image-container img {
+            display: block; /* Removes extra space below image */
+            width: 100%; /* Image takes full width of its container */
+            height: auto;
+            transition: transform 0.3s ease-in-out; /* Smooth zoom transition */
+        }
+
+        /* Zoom effect on hover */
+        .pc-lens-image-container:hover img {
+            transform: scale(1.05); /* Slightly enlarge the image */
+        }
+
+        /* Styling for the text content */
+        .pc-lens-text-content {
+            flex: 1; /* Allows text to take up remaining space */
+            max-width: 700px; /* Optional: limit text width for readability */
+        }
+
+        .pc-lens-text-content h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .pc-lens-text-content p {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .pc-lens-section {
+                flex-direction: column; /* Stack image and text vertically */
+                align-items: center; /* Center items when stacked */
+            }
+            .pc-lens-image-container {
+                width: 80%; /* Make image wider on smaller screens */
+                max-width: 350px; /* But not too wide */
+                margin-bottom: 20px;
+            }
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-between; /* Distribute space between images */
+            margin: 40px 0; /* Add vertical space around the gallery */
+            gap: 20px; /* Space between the images */
+        }
+        .image-gallery div {
+            flex: 1; /* Make all three images take up equal space */
+            text-align: center;
+        }
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Removes extra space below images */
+        }
+    </style>
+</head>
+<body>
+
+<div class="pc-lens-section">
+    <div class="pc-lens-image-container">
+        <img src="/images/snowboard.png" alt="Snowboarder wearing PC Lenses">
+    </div>
+        <div class="pc-lens-text-content">
+        <h2>PC Lens (Polycarbonate)</h2>
+        <p>Our PC lenses are engineered using premium Japanese raw materials from Teijin, ensuring superior quality in every product. Polycarbonate is an advanced material renowned for its lightweight composition, high Abbe value, exceptional impact resistance, and inherent UV filtration capabilities.</p>
+        <p>These unique characteristics position PC lenses as the ultimate choice for safety and comfort. They are approximately 57% lighter than glass and 26% thinner than standard Resin lenses. Polycarbonate currently offers the highest level of protection available, establishing it as the premier wearable lens against projectile impact.</p>
+        <p>Furthermore, we utilize advanced coating technologies that deliver enhanced performance, including anti-light refraction, robust resistance to grease stains, and effective EMI (Electromagnetic Interference) static resistance.</p>
+        <p>In summary, PC lenses integrate the best attributes of both Resin and glass lenses, providing an unparalleled combination of comfort and superior impact protection. Due to these significant benefits, PC lenses are establishing themselves as the market leader, set to redefine future ophthalmic and protective eyewear standards.</p>
+    </div>
+
+</div>
+
+    <div class="image-gallery">
+        <img src="/images/cinematic.png" alt="sun">
+    </div>
