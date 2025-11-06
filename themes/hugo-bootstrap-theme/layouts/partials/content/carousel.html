@@ -41,7 +41,7 @@
 
 {{ $images := resources.Match .imagesPattern }}
 
-<div id="bootstrapCarousel" class="carousel slide {{ if (.crossFade) }}carousel-fade{{ end }}" data-bs-ride="carousel">
+<div id="bootstrapCarousel" class="carousel slide {{ if (.crossFade) }}carousel-fade{{ end }}" data-bs-interval="false">
   {{ if .withIndicators }}
     <div class="carousel-indicators">
       {{ range $index, $image := $images }}
